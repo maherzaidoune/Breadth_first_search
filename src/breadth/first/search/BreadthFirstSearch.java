@@ -10,12 +10,7 @@ import java.util.Queue;
  */
 
 /**
- * Breadth first (largeur d'abord) search is a simple strategy in which the root node is expanded first,
- * then all the successors of the root node are expanded next,
- * then their successors and so on until the best possible path has been found.
  * ♥ RRDL ♥
- * Breadth First Search Utilizes the queue data structure as opposed
- * to the stack that Depth First Search uses.
  */
 public class BreadthFirstSearch {
     

@@ -55,8 +55,10 @@ public class BreadthFirstSearch {
         return false;
     }
     public void printDone(){
+        int steps = 0;
         for(Node n : done){
-            System.out.println(n.nodeName);
+            System.out.println(++steps + " : " +n.nodeName);
+            
         }
     }
 
